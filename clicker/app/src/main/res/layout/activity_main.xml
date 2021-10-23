@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="411dp"
+        android:layout_height="358dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="215dp">
+
+        <TextView
+            android:id="@+id/clicks_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="128dp"
+            android:layout_y="110dp"
+            android:text="Вы нажали кнопку 0 раз" />
+
+        <Button
+            android:id="@+id/button_increse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="19dp"
+            android:layout_y="148dp"
+            android:onClick="increseCount"
+            android:text="Нажми меня"
+            app:icon="@android:drawable/sym_def_app_icon" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_x="122dp"
+            android:layout_y="306dp"
+            android:onClick="resetCount"
+            android:text="Сбросить" />
+
+        <Button
+            android:id="@+id/button_decrease"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_x="123dp"
+            android:layout_y="250dp"
+            android:onClick="decreaseCount"
+            android:text="Уменьшить" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="118dp"
+            android:layout_height="118dp"
+            android:layout_x="279dp"
+            android:layout_y="181dp"
+            android:onClick="increseCount"
+            android:scaleType="center"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

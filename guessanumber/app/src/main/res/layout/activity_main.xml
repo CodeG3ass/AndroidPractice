@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/text_show_info"
+            android:layout_width="374dp"
+            android:layout_height="123dp"
+            android:layout_x="14dp"
+            android:layout_y="11dp"
+            android:fontFamily="cursive"
+            android:text="@string/try_to_guess"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="13dp"
+            android:layout_y="202dp"
+            android:text="@string/input_value" />
+
+        <EditText
+            android:id="@+id/text_input_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="94dp"
+            android:layout_y="150dp"
+            android:ems="10"
+            android:digits="0123456789."
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/appexit"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_x="215dp"
+            android:layout_y="203dp"
+            android:text="@string/appexit" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="266dp">
+
+            <RadioButton
+                android:id="@+id/radioLvl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lvl1"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/radioLvl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lvl2"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="215dp"
+            android:layout_y="262dp"
+            android:enabled="false"
+            android:text="@string/help" />
+
+        <TextView
+            android:id="@+id/textHelper"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_x="193dp"
+            android:layout_y="314dp"
+            android:visibility="visible" />
+
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

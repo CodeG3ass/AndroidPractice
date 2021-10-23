@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Угадай число</string>
+    <string name="behind">Недолет!</string>
+    <string name="ahead">Перелет!</string>
+    <string name="hit">В точку!</string>
+    <string name="play_more">Сыграть еще!</string>
+    <string name="try_to_guess">Попробуй угадать число от (1 &#8211; до 100)</string>
+    <string name="input_value">Ввести значение</string>
+    <string name="error">Ошибка. Введите значение еще раз!</string>
+    <string name="error2">Ошибка. Число вне диапозона!</string>
+    <string name="appexit">Закрыть приложение</string>
+    <string name="lvl1">Легкий уровень</string>
+    <string name="lvl2">Сложный уровень</string>
+    <string name="help">Подсказка</string>
+</resources>
