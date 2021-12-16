@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SecondApplicationWindow</string>
+    <string name="activity_1">activity_1</string>
+    <string name="activity_2">activity_2</string>
+    <string name="activity_3">activity_3</string>
+    <string name="activity_4">activity_4</string>
+</resources>

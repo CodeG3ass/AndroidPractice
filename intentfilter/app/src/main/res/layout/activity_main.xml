@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/btnTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="226dp"
+            android:layout_y="66dp"
+            android:text="Show time"></Button>
+
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="17dp"
+            android:layout_y="67dp"
+            android:text="Show date"></Button>
+
+        <Button
+            android:id="@+id/btnChangeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="215dp"
+            android:layout_y="121dp"
+            android:text="Задать имя"></Button>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_x="17dp"
+            android:layout_y="131dp"
+            android:text="Your name is "></TextView>
+
+        <EditText
+            android:id="@+id/etLName"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_x="77dp"
+            android:layout_y="12dp"></EditText>
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="21dp"
+            android:layout_y="181dp"
+            android:labelFor="@+id/edit_text"
+            android:text="URL" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="66dp"
+            android:layout_y="179dp"
+            android:autofillHints="https://www.google.com/"
+            android:inputType="text"
+            android:minWidth="150dp" />
+
+        <Button
+            android:id="@+id/buttonOpenCite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="240dp"
+            android:layout_y="175dp"
+            android:text="Перейти" />
+
+        <Button
+            android:id="@+id/buttonCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="9dp"
+            android:layout_y="235dp"
+            android:text="Камера" />
+
+        <LinearLayout
+            android:id="@+id/cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="288dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/text_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пример текста"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="4dp"
+            android:layout_y="331dp">
+
+            <Button
+                android:id="@+id/color"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Цвет" />
+
+            <Button
+                android:id="@+id/align"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Расположение" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="220dp"
+            android:layout_height="181dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:layout_x="170dp"
+            android:layout_y="404dp"
+            android:contentDescription="Изображение" />
+
+        <Button
+            android:id="@+id/btn_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:layout_centerHorizontal="true"
+            android:layout_x="5dp"
+            android:layout_y="400dp"
+            android:text="Изображение" />
+    </AbsoluteLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
