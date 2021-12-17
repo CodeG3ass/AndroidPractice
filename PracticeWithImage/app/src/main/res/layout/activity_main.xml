@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_geass_foreground"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="390dp">
+
+        <ListView
+            android:id="@+id/listview_works"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Текущее дело:" />
+
+        <EditText
+            android:id="@+id/edittext_work"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_x="49dp"
+            android:layout_y="119dp"
+            android:text=""
+            android:textColor="@color/teal_200"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="129dp"
+            android:layout_height="124dp"
+            android:layout_x="6dp"
+            android:layout_y="285dp"
+            app:srcCompat="@mipmap/ic_codegeass_foreground"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button_Add"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_x="108dp"
+            android:layout_y="201dp"
+            android:text="Добавить" />
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
