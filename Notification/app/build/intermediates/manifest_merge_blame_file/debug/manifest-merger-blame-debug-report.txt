@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.services"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:5:5-77
+11-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:5:22-74
+12
+13    <application
+13-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:7:5-35:19
+14        android:allowBackup="true"
+14-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Classsic\.gradle\caches\transforms-3\376792b261fdcbfd86757f02ea12377d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Services" >
+22-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:13:9-46
+23        <activity
+23-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:14:9-16:39
+24            android:name="com.example.services.MainActivity3"
+24-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:15:13-42
+25            android:exported="true" />
+25-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:16:13-36
+26        <activity
+26-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:17:9-19:39
+27            android:name="com.example.services.MainActivity2"
+27-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:18:13-42
+28            android:exported="true" />
+28-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:19:13-36
+29
+30        <service
+30-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:21:9-24:39
+31            android:name="com.example.services.MyService"
+31-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:22:13-38
+32            android:enabled="true"
+32-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:23:13-35
+33            android:exported="true" />
+33-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:24:13-36
+34
+35        <activity
+35-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:26:9-34:20
+36            android:name="com.example.services.MainActivity"
+36-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:27:13-41
+37            android:exported="true" >
+37-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:28:13-36
+38            <intent-filter>
+38-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:29:13-33:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:30:17-69
+39-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:30:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:32:17-77
+41-->C:\Users\Classsic\Android\MD5.2 asd\app\src\main\AndroidManifest.xml:32:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Classsic\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Classsic\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+47            android:authorities="com.example.services.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Classsic\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Classsic\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Classsic\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Classsic\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Classsic\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Classsic\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Classsic\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Classsic\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
+57
+58</manifest>

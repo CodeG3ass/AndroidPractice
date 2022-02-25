@@ -1,0 +1,11 @@
+com/example/services/MainActivity3.java
+ com.example.services.MainActivity3
+com/example/services/MainActivity2.java
+ com.example.services.MainActivity2
+com/example/services/BuildConfig.java
+ com.example.services.BuildConfig
+com/example/services/MainActivity.java
+ com.example.services.MainActivity
+ com.example.services.MainActivity$1
+com/example/services/MyService.java
+ com.example.services.MyService
