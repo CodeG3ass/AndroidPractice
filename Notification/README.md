@@ -1,2 +1,0 @@
-# AndroidPractice
-Практика по андройду
